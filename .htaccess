@@ -1,0 +1,9 @@
+<IfModule mod_authz_core.c>
+	Options +indexes
+    Require all granted
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Options +indexes
+    Order allow,deny
+    Allow from all
+</IfModule>
