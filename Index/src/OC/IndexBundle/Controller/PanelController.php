@@ -4,10 +4,10 @@ namespace OC\IndexBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class PanelController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('OCIndexBundle:Redirect:index.html.twig');
+        return $this->render('OCIndexBundle:Panel:index.html.twig');
     }
 }

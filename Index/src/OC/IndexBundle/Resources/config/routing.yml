@@ -1,3 +1,6 @@
-oc_index_homepage:
+index_index:
     path:     /
     defaults: { _controller: OCIndexBundle:Default:index }
+panel_index:
+    path: /panel
+    defaults: { _controller: OCIndexBundle:Panel:index}
