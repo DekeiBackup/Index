@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace OC\IndexBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class OCIndexBundle extends Bundle
 {
 }
